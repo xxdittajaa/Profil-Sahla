@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #DFCAA0;
+    z-index: 1000;
+    padding: 10px 0;
+    text-align: right;
+}
+.navbar a{
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    background-color: white;
+}
+.header-text h1{
+    justify-content: center;
+    font-size: 48px;
+    margin: 0;
+}
+.header-text p{
+    font-size: 18px;
+    color: black;
+    margin: 20px 0;
+}
+.header-image{
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.info-section{
+    background-color: #DFCAA0;
+    color: black;
+    padding: 50px 0;
+    text-align: center;
+}
+.info-section .info{
+    display: inline-block;
+    width: 30%;
+    margin: 0 1,5%;
+}
+.info-section h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.info-section p{
+    font-size: 16;
+    color: black;
+}
+.header2{
+    font-size: 70px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.kotak{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.piala{
+    background-color: #DFCAA0;
+    border-radius: 400px;
+    width: 400px;
+    margin: 0 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.piala-img{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.piala-text{
+    margin-left: 20px;
+    text-align: left;
+}
+.piala-text h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+.piala-text p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.gambarr{
+    margin-left: 5%;
+}
+.kotak2{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container img{
+    margin: 50px;
+    width: 350px;
+    height: 350px;
+}
+.gtw{
+    color: #000;
+    margin-bottom: 50px;
+    margin-left: 25px;
+}
+.bebs img{
+    margin-bottom: 50px;
+}
+.bebs p{
+    text-align: center;
+    margin-bottom:75px;
+}
+.karir{
+    margin-left: 330px;
+}
+.Industri{
+margin-left: 400px;
+}
